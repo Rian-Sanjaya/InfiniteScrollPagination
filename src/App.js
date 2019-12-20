@@ -2,6 +2,8 @@ import React, { Component, Fragment } from 'react';
 import request from 'superagent'
 import debounce from 'lodash.debounce'
 
+// using all window to scroll
+
 class App extends Component {
   constructor(props) {
     super(props)
